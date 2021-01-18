@@ -15,6 +15,12 @@
   - in functional React, components are just JavaScript functions
   - designing components
  
+ ##  JSX
+  - what is jsx?
+  - embedding JS variables in markup
+  - similar to EJS in an Express App
+  - can even make markup a variable 
+
 ##  Create a React app
   - create-react app. Often you'll see it called "CRA" (yeah I know!)
   - npx, what is that?
@@ -24,13 +30,6 @@
   - folders & files
   - clean up the project
   - add some JSX : eg: a hello button
-
-##  JSX
-  - what is jsx?
-  - embedding JS variables in markup
-  - similar to EJS in an Express App
-  - can even make markup a variable 
-  - creating a `<Input/>` component 
 
 ## Props & Attributes
   - components are just functions.  Really, that's all they are.
