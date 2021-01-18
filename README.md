@@ -22,7 +22,7 @@
   - can even make markup a variable 
 
 ##  Create a React app
-  - create-react app. Often you'll see it called "CRA" (yeah I know!)
+  - create-react app. Often you'll see it called "CRA" 
   - npx, what is that?
   - Start the default CRA-generated application. 
   - look at the files ic created for us
