@@ -3,7 +3,7 @@
 
 ##  What is React?
   - Front End (browser) Javascript Library
-  - what is the main difference ? eg: react vs jquery
+  - what is the difference ? eg: react vs jquery
   - declarative vs imperative
   - with React you manage the data, not the DOM.
   - class based vs functional components .  We will use functional
