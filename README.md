@@ -20,7 +20,6 @@
   - create-react app. Often you'll see it called "CRA" 
   - npx, what is that?
 
-
 ## Anatomy of a React App
  - package.json scripts.
  - public folder: index.html - rarely touch
