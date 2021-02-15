@@ -4,11 +4,11 @@
 ##  What is React?
   - Front End (browser) Javascript Library
   - what is the main difference ? eg: react vs jquery
-  - Component-based design
   - declarative vs imperative
   - with React you manage the data, not the DOM.
   - class based vs functional components .  We will use functional
   - brief history of class vs func.  Advantages of functional components
+  - Component-based design
   
 ##  Components
   - the building blocks of a web page
