@@ -31,6 +31,12 @@
   - similar to EJS in an Express App
   - can even make markup a variable 
 
+## Anatomy of a Component
+ - Component is a JavaScript Function
+ - has some "stuff" then a `return`
+ - the `return` is where all the action happens
+ - stuff before that is getting ready for showtime
+
 ## Props & Attributes
   - components are just functions.  Really, that's all they are.
   - component attributes show up as props. *Remember this*
