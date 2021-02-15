@@ -1,4 +1,7 @@
- 
+ .App {
+  margin: 1em;
+ }
+
  h4 {
   padding: 0px;
   margin: 0.2em;
