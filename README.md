@@ -19,19 +19,17 @@
 ##  Create a React app
   - create-react app. Often you'll see it called "CRA" 
   - npx, what is that?
-  - Start the default CRA-generated application. 
-  - look at the files ic created for us
-  - package.json scripts.
-  - folders & files
-  - clean up the project
-  - add some JSX : eg: a hello button
+
 
 ## Anatomy of a React App
+ - package.json scripts.
  - public folder: index.html - rarely touch
  - src folder:  our stuff
  - index.js:  rarely touch
  - App.js (or Application.js):  All the fun starts here
  - css files:  the usual stuff
+ - Start application. 
+ - Clean up the project
  
 ## Anatomy of a Component
  - Component is a JavaScript Function
