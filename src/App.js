@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import './App.css';
 import Input from './components/Input';
+import './App.css';
 
 const testData = [
   "List Item 1",
