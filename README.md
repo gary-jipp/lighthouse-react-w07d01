@@ -25,18 +25,24 @@
   - clean up the project
   - add some JSX : eg: a hello button
 
- ##  JSX
-  - what is jsx?
-  - embedding JS variables in markup
-  - similar to EJS in an Express App
-  - can even make markup a variable 
-
+## Anatomy of a React App
+ - public folder: index.html - rarely touch
+ - src folder:  our stuff
+ - index.js:  rarely touch
+ - App.js (or Application.js):  All the fun starts here
+ - css files:  the usual stuff
+ 
 ## Anatomy of a Component
  - Component is a JavaScript Function
  - has some "stuff" then a `return`
  - the `return` is where all the action happens
  - stuff before that is getting ready for showtime
-
+ 
+ ##  JSX
+  - what is jsx?
+  - embedding JS variables in markup
+  - similar to EJS in an Express App
+  - can even make markup a variable 
 ## Props & Attributes
   - components are just functions.  Really, that's all they are.
   - component attributes show up as props. *Remember this*
