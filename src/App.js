@@ -8,15 +8,17 @@ const data = [
   { id: 4, text: "Item 4" },
 ];
 
+// Our Button Component
 const Button = function (props) {
 
   // We're not doing any setup here. 
-  // Just showtime for the html button
+  // Just showing an html button
   return (
     <button onClick={props.onClick}>{props.text}</button>
   );
 };
 
+// Our App (main) Component
 const App = function () {
   console.log("rendering App component");
 
