@@ -15,6 +15,11 @@
   - can (should)  be reusable
   - in functional React, components are just JavaScript functions
   - designing components
+
+## Virtual DOM
+  - this is what makes React so fast
+  - Virtual & Real DOM
+  - Render  pathes the real dom with changes only  
  
 ##  Create a React app
   - create-react app. Often you'll see it called "CRA" 
