@@ -1,42 +1,55 @@
-import React, { useState } from 'react';
-import Input from './components/Input';
+import { useState } from 'react';
 import './App.css';
 
-const testData = [
-  "List Item 1",
-  "List Item 2",
-  "List Item 3",
-  "List Item 4",
-  "List Item 5",
+const data = [
+  { id: 1, text: "Item 1" },
+  { id: 2, text: "Item 2" },
+  { id: 3, text: "Item 3" },
+  { id: 4, text: "Item 4" },
 ];
 
-const App = function () {
-  console.log("Render App Component");
-  const [message, setMessage] = useState("");
-  const [data, setData] = useState([]);
+const Button = function (props) {
 
-  const show = function (text) {
-    setMessage(text);
-    setData(testData);
+  // We're not doing any setup here. 
+  // Just showtime for the html button
+  return (
+    <button onClick={props.onClick}>{props.text}</button>
+  );
+};
+
+const App = function () {
+  console.log("rendering App component");
+
+  const [inputValue, setInputValue] = useState("");
+  const [listData, setlistData] = useState([]);
+
+  const onButtonClick = function () {
+    setlistData(data);
   };
 
-  const newItems = [];
-  for (const item of data) {
-    newItems.push(<li>{item}</li>);
-  }
+  const onInputChange = function (event) {
+    setInputValue(event.target.value);
+    console.log(event.target.value);
+    // console.log(inputValue);
+  };
 
-  const items = data.map(item =>
-    <li>{item}</li>
-  );
+  const text = "Search";
 
+  // Here's the star of our show so we'll put just before the curtain lifts
+  const mappedList = listData.map(item => {
+    return <li key={item.id}>{item.text}</li>;
+  });
+
+  // Its Showtime !
   return (
     <div className="App">
-      <h4>My Search Page</h4>
-      <Input label='Hello' onSave={show} text="" />
-      <h4>{message}</h4>
 
-      <ul>
-        {newItems}
+      <Button text="New Button" onClick={onButtonClick} />
+
+      <input type="text" onChange={onInputChange} value={inputValue} />
+      <button onClick={onButtonClick}>{text}</button>
+      <ul id="container">
+        {mappedList}
       </ul>
 
     </div>
