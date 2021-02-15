@@ -31,7 +31,7 @@ const App = function () {
 
   return (
     <div className="App">
-      <h4>My Bad Search Page</h4>
+      <h4>My Search Page</h4>
       <Input label='Hello' onSave={show} text="" />
       <h4>{message}</h4>
 

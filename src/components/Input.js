@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import '../App.css';  // Note:  would not normally do this!
 
 const Input = function (props) {
   console.log("Render Input Component");

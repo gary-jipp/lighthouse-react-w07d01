@@ -1,11 +1,9 @@
-.App {
-  margin: 1 em;
- }
-  
- h4{
+ 
+ h4 {
   padding: 0px;
-  margin:.2em;
+  margin: 0.2em;
  }
+
  h4:empty:before {
    content: "\200b"; /* unicode zero width space character */
  }
@@ -26,7 +24,7 @@
    color: grey;
  }
  
- li:hover{
+ li:hover {
    background-color: darkolivegreen;
    color: white;
  }
