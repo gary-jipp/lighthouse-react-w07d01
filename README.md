@@ -2,7 +2,7 @@
 # W07D01 - Component-Based UI w/ React
 
 ##  What is React?
-  - Front End (browser) Javascript
+  - Front End (browser) Javascript Library
   - what is the main difference ? eg: react vs jquery
   - declarative vs imperative
   - with React you manage the data, not the DOM.
