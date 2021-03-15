@@ -46,6 +46,7 @@
   - embedding JS variables in markup
   - similar to EJS in an Express App
   - can even make markup a variable 
+  
 ## Props & Attributes
   - components are just functions.  Really, that's all they are.
   - component attributes show up as props. *Remember this*
