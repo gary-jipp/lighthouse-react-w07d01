@@ -46,7 +46,14 @@
   - embedding JS variables in markup
   - similar to EJS in an Express App
   - can even make markup a variable 
-  
+
+## Building a Search App
+  - using static data
+  - managed Lists using the array map() function
+  - the  data array we "have" vs the array we "want" -> map()
+  - could use a "for-of" but map() is really made for this
+  - callback from child component to pass data back up to parent 
+    
 ## Props & Attributes
   - components are just functions.  Really, that's all they are.
   - component attributes show up as props. *Remember this*
@@ -63,13 +70,3 @@
   - useState() returns an array of 2.  Will always see as destructured
   - Using State with our `<Input>` component
   - DevTools
-
-## Building our "bad" Search App
-  - using static data
-  - managed Lists using the array map() function
-  - the  data array we "have" vs the array we "want" -> map()
-  - could use a "for-of" but map() is really made for this
-  - callback from child component to pass data back up to parent 
-
-
-  
