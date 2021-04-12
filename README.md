@@ -49,7 +49,7 @@
 
 ## Building a Search App
   - using static data
-  - managed Lists using the array map() function
+  - controlled Lists use the array map() function
   - the  data array we "have" vs the array we "want" -> map()
   - could use a "for-of" but map() is really made for this
   - callback from child component to pass data back up to parent 
